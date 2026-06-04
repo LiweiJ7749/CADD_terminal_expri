@@ -24,6 +24,9 @@
 ## 辅助脚本: 00pre.sh
 对蛋白构象使用 `run_rosetta <pdb文件> InterfaceAnalyzer `进行界面打分
 
+## 评估脚本：dockq_contrast.sh
+对评估构象使用 `DockQ <预测对接结构.pdb> <参考实验结构.pdb>`进行打分
+
 ## docker文件夹
 python辅助脚本
 
@@ -32,3 +35,6 @@ ZDOCK对接所需要的软件
 
 ## zrank_linux_64bit 文件夹
 zrank 打分排序软件
+
+## DockQ文件夹
+DockQ 软件的conda 环境。安装DockQ软件 `pip install DockQ`

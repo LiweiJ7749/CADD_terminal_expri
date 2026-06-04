@@ -24,3 +24,11 @@
 ## 辅助脚本: 00pre.sh
 对蛋白构象使用 `run_rosetta <pdb文件> InterfaceAnalyzer `进行界面打分
 
+## docker文件夹
+python辅助脚本
+
+## zdock3.0.2_linux_x64 文件夹
+ZDOCK对接所需要的软件
+
+## zrank_linux_64bit 文件夹
+zrank 打分排序软件

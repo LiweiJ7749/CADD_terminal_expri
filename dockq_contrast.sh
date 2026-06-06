@@ -7,6 +7,7 @@ RESULT_PDBS=(
   "./data/cluspro_result.pdb"
   "./data/gramm_result.pdb"
   "./data/haddock_result.pdb"
+  "./data/frodock_result.pdb"
 )
 
 REFERENCE_PDB="./data/6L1Y_standard.pdb"

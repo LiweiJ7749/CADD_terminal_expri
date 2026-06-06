@@ -21,11 +21,14 @@
 
 - 注：当前**仓库文件仅支持运行至第4步**，rosetta 软件的 docker 镜像过大。可以在 Wsl 上运行 `docker pull rosettacommons/rosetta:ml-420` 下载，并配置到环境变量中即可
 
-## 辅助脚本: 00pre.sh
+## 评估脚本1: interface_contrast.sh
 对蛋白构象使用 `run_rosetta <pdb文件> InterfaceAnalyzer `进行界面打分
 
-## 评估脚本：dockq_contrast.sh
+## 评估脚本2：dockq_contrast.sh
 对评估构象使用 `DockQ <预测对接结构.pdb> <参考实验结构.pdb>`进行打分
+
+## pro2pro_docking_web.md文件
+常用蛋白-蛋白对接网站
 
 ## docker文件夹
 python辅助脚本
